@@ -1,0 +1,37 @@
+/*
+Quando coloca só o * configura todas as tags
+ *{
+  margin:0px;
+  padding:0px;
+}
+*/
+*{
+  /* Centralizando divs/elementos */
+  margin: 0px auto;
+  padding:0px;
+  font-family: 'Anton', sans-serif;
+}
+
+.site{
+  background-color: #FFFFFF;
+  /* Largura do elemento */
+  width: 800px;
+  padding: 50px;
+}
+
+/* alterando a div conteudo dentro da div site */
+.site .conteudo{
+  background-color:  pink;
+  font-family: 'Inconsolata', monospace;
+}
+
+.site .topo, .site .rodape{
+  text-align: center;
+}
+
+
+
+
+body{
+  background-color: #DADADB;
+}
