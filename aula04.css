@@ -5,7 +5,7 @@ Quando coloca só o * configura todas as tags
   padding:0px;
 }
 */
-*{
+*{ /* O * indica que essa formatação serve pra todas as divs*/
   /* Centralizando divs/elementos */
   margin: 0px auto;
   padding:0px;
@@ -21,6 +21,8 @@ Quando coloca só o * configura todas as tags
 
 /* alterando a div conteudo dentro da div site */
 .site .conteudo{
+  margin:30px;
+  padding: 50x;
   background-color:  pink;
   font-family: 'Inconsolata', monospace;
 }

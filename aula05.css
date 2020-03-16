@@ -1,0 +1,111 @@
+/*
+Quando coloca só o * configura todas as tags
+ *{
+  margin:0px;
+  padding:0px;
+}
+*/
+*{ /* O * indica que essa formatação serve pra todas as divs*/
+  /* Centralizando divs/elementos */
+  margin: 0px auto;
+  padding: 0px;
+  font-family: 'Anton', sans-serif;
+}
+
+.site{
+  background-color: #FFFFFF;
+  /* Largura do elemento */
+  width: 900px;
+  padding: 50px;
+}
+
+/* alterando a div conteudo dentro da div site */
+.site .conteudo{
+  margin:10px;
+  padding: 10px 0px 90px 10px;
+  background-color:  pink;
+  font-family: 'Inconsolata', monospace;
+}
+
+.site .topo, .site .rodape{
+  text-align: center;
+}
+
+/* quando coloca pt na fonte, fica que nem o tamanho d word */
+/* Mais comu usar px, pixels */
+.botao{
+  font-size: 14pt;
+  /* o text-decoration:  com o none serve pra tirar o grifado */
+  text-decoration: none;
+  margin:0px;
+  padding: 10px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #000000;
+}
+
+.botao-rosa{
+  background-color:  #ffb3da;
+  font-family: 'Inconsolata', monospace;
+  border: solid 1px #ff80c1;
+}
+/* O :hover indica a modificação que vai acontecer quando passar o mouse em cima */
+.botao-rosa:hover{
+  background-color: #ff80c1;
+}
+
+.botao-verde{
+  background-color: #9fdf9f;
+  font-family: 'Inconsolata', monospace;
+  border: solid 1px #009900;
+}
+.botao-verde:hover{
+  background-color: #40bf40;
+}
+
+.botao-cinza{
+  background-color: #d9d9d9;
+  font-family: 'Inconsolata', monospace;
+  border: solid 1px #8c8c8c;
+}
+
+.botao-cinza:hover{
+  background-color: #b3b3b3;
+}
+
+
+/* formatação da lista */
+
+
+.menu ul{
+  /* Para tirar a bolinha usa o list-style-type:none */
+  list-style-type: none;
+  background-color:#d9d9d9 ;
+  margin:20px;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* todos "li" dentro do "ul" que está dentro do "menu" */
+.menu ul li{
+  /* mudando os itens da lista */
+  display: inline-block;
+}
+
+.menu a{
+  /* tira o _ */
+  text-decoration: none;
+  /* coloca a lista na mesma linha: */
+  display: inline-block;
+  padding: 5px 10px;
+  color: #000000;
+}
+
+.menu a:hover{
+  background-color: #b3b3b3;
+}
+
+
+
+body{
+  background-color: #DADADB;
+}
